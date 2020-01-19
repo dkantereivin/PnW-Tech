@@ -1,0 +1,26 @@
+{
+  "name": "pnw-war-tech",
+  "version": "1.0.0",
+  "description": "PnW War Tech",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkantereivin/PnW-War-Tech.git"
+  },
+  "author": "Canter#0548",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkantereivin/PnW-War-Tech/issues"
+  },
+  "homepage": "https://github.com/dkantereivin/PnW-War-Tech#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.1",
+    "pnw4js": "^1.0.6"
+  }
+}
