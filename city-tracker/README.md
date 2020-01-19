@@ -7,12 +7,12 @@ To monitor a list of subscribed alliances, downloading the alliances cities and 
 ## API
 This program's output is a web API, and it periodically fetches and stores data in the database.
 
-## Endpoints:
+#### Endpoints:
 This API currently has a single endpoint:
-#### GET /cities/:date&:allianceID
+##### GET /cities/:date&:allianceID
 Both parameters are required. To fetch the current date, write it or write `current` in the date slot. Dates should use the `YYYYMMDD` format.
 
-### Authentication:
+#### Authentication:
 This API uses header based authentication. In **all** calls to the database, include in the header:
 ```json
 {
@@ -26,6 +26,7 @@ Unauthenticated calls to *any* endpoint will result in a `401: Unauthorized` HTT
 __Requirements:__
 - nodejs + npm
 - expressjs
+- moment
 - dotenv (and a .env file, see below for template)
 - pnw4js
 - mongodb (npm) and a running mongodb server
